@@ -10,19 +10,22 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             overflow: hidden;
         }
         
         img {
-            width: 50vw;
-            height: 50h;
-            object-fit: cover; /* Optional: This property specifies how the contents of the image should be resized to fit its container */
+            max-width: 100vw;
+            max-height: 100vh;
+            object-fit: contain;
         }
     </style>
 </head>
 
 <body>
-    <img src="img/download.png" alt="Download Image">
+    <img src="download.png" alt="Download Image">
 </body>
 
 </html>

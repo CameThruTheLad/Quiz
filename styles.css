@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.passform {
+    text-align: center;
+}
+
+.passform input[type="password"] {
+    margin-bottom: 10px;
+    display: block;
+    background-color: black;
+    color: white;
+    border: 1px solid white; /* Set border of text box to white */
+    outline: none; /* Remove outline */
+}
+
+.passform input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: 1px solid white; /* Set border of submit button to white */
+    outline: none; /* Remove outline */
+}
